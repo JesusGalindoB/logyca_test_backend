@@ -15,16 +15,10 @@ from create_read import (
 
 # Utilities
 from utilities import prime_number_generator, twin_prime_generator
-from fastapi.middleware.cors import CORSMiddleware
 
 models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=['*']
-)
 
 def get_db():
     db = SessionLocal()
