@@ -13,11 +13,11 @@ _RESTapi para prueba de logyca, api genera el calculo de números primos y núme
 
 Tener instalado:
 
-[Git]
-[PYTHON]
-[SQLALCHEMY]
-[FASTAPI]
-[POSTGRESQL]
+- [Git]
+- [PYTHON]
+- [SQLALCHEMY]
+- [FASTAPI]
+- [POSTGRESQL]
 
 ## Comenzando ⚡
 
@@ -31,6 +31,7 @@ pip install -r requirements.txt
 ```
 
 3. Levantar app
+```
 uvicorn main:app --reload
 ```
 
