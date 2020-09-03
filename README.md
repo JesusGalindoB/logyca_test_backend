@@ -34,7 +34,7 @@ pip install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
-3. Endpoint
+3. Endpoints
 ```
 /prime_numbers/{n}
 /twin_prime/{n}
