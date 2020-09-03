@@ -4,7 +4,7 @@
 [FASTAPI]: https://fastapi.tiangolo.com/
 [POSTGRESQL]: https://www.postgresql.org/
 
-# logyca_test_bakcend
+# logyca_test_backend
 
 _RESTapi para prueba de logyca, api genera el calculo de números primos y número primos gemelos.
  con posiblidad de guardar en base de datos local_
