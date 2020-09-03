@@ -34,8 +34,15 @@ pip install -r requirements.txt
 ```
 uvicorn main:app --reload
 ```
+3. Endpoint
+```
+/prime_numbers/{n}
+/twin_prime/{n}
+/prime_numbers_db/{n}
+/twin_primes_db/{n}
 
-3. Copiar el contenido del archivo  .env.example en el archivo .env crear si no existe.
+/docs/ --> documentación de la API.
+```
 
 ## Construido con 🛠️
 
